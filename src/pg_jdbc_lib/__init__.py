@@ -1,4 +1,5 @@
-from .config import PgJdbcConfig
-from .client import PgJdbcClient
+from .client import PgJdbcClient, PgJdbcConfig
 
-__all__ = ["PgJdbcConfig", "PgJdbcClient"]
+__all__ = ["PgJdbcClient", "PgJdbcConfig"]
+
+__version__ = "0.1.3"
